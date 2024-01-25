@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 class AppRouter {
   Route generatorRoute(RouteSettings settings) {
     // this arguments to be passed to any screen
-    final arguments = settings.arguments;
 
     switch (settings.name) {
       case Routes.onBoardingScreen:

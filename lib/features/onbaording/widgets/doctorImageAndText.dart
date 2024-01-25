@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:doctors_application/core/theming/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -29,6 +30,6 @@ class DoctorImageAndText extends StatelessWidget {
               style: TextStyles.font32BlueBold.copyWith(height: 1.4),
             ))
       ],
-    ); 
+    );
   }
 }
