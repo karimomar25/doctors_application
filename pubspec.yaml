@@ -66,8 +66,11 @@ dependencies:
   # An Svg rendering widget libarary
   flutter_svg: ^2.0.9
 
-  
+  # for adapting screen and font size
   flutter_screenutil: ^5.9.0
+  
+  # a build system for dart code generation and modular complation
+  build_runner: ^2.4.8
 
   
 
